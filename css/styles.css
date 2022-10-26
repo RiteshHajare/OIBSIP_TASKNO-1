@@ -1,0 +1,153 @@
+
+/* Front page secction */
+
+#front-page{
+  background-color: #3AB0FF;
+  text-align: center;
+  padding-bottom: 4.9rem;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#front-page h1{
+  padding-left: 4.2rem;
+  font-size: 2rem;
+}
+.liist{
+  padding-top: 3rem;
+  padding-left: 3.3rem;
+}
+.liist2{
+  padding-top: 2rem;
+}
+.row{
+  text-align: left;
+  padding-left: 2rem;
+}
+#front-page .brand-name{
+  padding-left: 5.5rem;
+  font-size: 3rem;
+  margin-left: 4.5rem;
+
+}
+.collapse{
+  padding-right: 2.5rem;
+}
+.nav-item{
+  padding: 0 1.5rem;
+}
+.container-fluid{
+  padding:1.5rem 0 2rem;
+  font-family: 'Montserrat-black', sans-serif;
+}
+.front-buttons{
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+.hpp{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.title-image{
+  width: 70%;
+  position: relative;
+  left: 20%;
+}
+
+/* Features section */
+#features{
+  padding-top: 2rem;
+}
+.feature-img{
+  width: 85%;
+
+}
+.features-div2{
+  position: relative;
+  top: 12rem;
+  left: 3rem;
+  text-align: center;
+
+}
+.features-para{
+  width: 55%;
+  padding-top: 1rem;
+  margin: auto;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-align: left;
+}
+h3{
+  position: relative;
+  right: 0.70rem;
+}
+
+/* Testimonials section */
+
+#testimonials{
+  padding-top:3rem;
+  background-color: #A8A4CE;
+}
+.carousel-item{
+  text-align: center;
+}
+#testimonials .testimonial-img{
+  width: 50%;
+  border-radius: 100%;
+  position: relative;
+  left: 8rem;
+}
+p{
+  padding-right: 6rem;
+}
+
+.carousel-inner{
+  padding-bottom: 4rem;
+}
+.testimonial-para{
+  padding-top: 6.50rem;
+  padding-right: 3.75rem;
+}
+
+/* Press section */
+
+#press{
+  background-color: #A8A4CE;
+
+}
+.press-img{
+  width:17%;
+  margin: 3rem 3rem 5rem;
+}
+
+/* pricing section */
+
+#pricing{
+  text-align: center;
+  padding: 5rem 0;
+  }
+
+h2{
+  padding-bottom: 3rem;
+}
+h4{
+  padding-bottom: 3rem;
+}
+#footer{
+  text-align: center;
+  position: absolute;
+  right: 28.8rem;
+  color: grey;
+}
+@media (max-width:543px;) {
+
+  #front-page .hpp{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
